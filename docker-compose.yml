@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  storage:
+    build: ./s3ninja
+    container_name: seu_storage
+    ports:
+      - 9444:9000
